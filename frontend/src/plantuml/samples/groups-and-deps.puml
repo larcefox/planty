@@ -1,0 +1,12 @@
+@startgantt
+Project starts 2024-03-01
+-- Phase 1 --
+task "Design" as [T1] lasts 4 days
+task "Review" as [T2] starts 2024-03-06 ends 2024-03-08
+-- end --
+-- Phase 2 --
+milestone "Launch" as [M1] happens at 2024-03-15
+-- end --
+[T1] --> [T2]
+[T2] --> [M1]
+@endgantt

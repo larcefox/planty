@@ -1,0 +1,4 @@
+@startgantt
+Project starts 2024-04-01
+task "Bad ID" as [bad id] lasts 2 days
+@endgantt
