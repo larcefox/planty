@@ -1,0 +1,4 @@
+@startgantt
+Project starts 2024-01-01
+task "Single Task" as [T1] lasts 3 days
+@endgantt
